@@ -6,6 +6,28 @@ A website to advertise the APIs provided by governments and public administratio
 
 ---
 
+## Adding content
+
+### Adding an organisation
+
+Add a file with the following file pattern: `/apis/{organisationName}/index.md`, and make sure the title of the file is the name of the organisation.
+
+### Adding an API
+
+Add a file with the following file pattern: `/apis/{organisation-name}/{api-name}.md`. The following front-matter variables are available to be set:
+
+```yaml
+---
+OpenAPI: https://api.data.amsterdam.nl/afval/swagger/
+licence: cc0
+url: https://api.data.amsterdam.nl/afval/
+---
+```
+
+Make sure to add the API to the organisations' index, since there is no automatic inclusion.
+
+---
+
 ## Installing, running and building
 
 This site and it's contents are served over [GitHub pages](http://pages.github.com) and redered in it's native static site genrator [Jekyll](http://jekyllrb.com).

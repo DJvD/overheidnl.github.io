@@ -1,6 +1,19 @@
 include: [README.md,CONTRIBUTING.md,GOVERNANCE.md]
 permalink: pretty
 
+# Page defaults in order to put the right design with the right class of page
+defaults:
+  -
+    scope:
+      path: "apis/*/index.md"
+    values:
+      layout: "organisation"
+  -
+    scope:
+      path: "apis/*/*"
+    values:
+      layout: "api"
+
 # Use the amsterdam-jekyll-theme from https://github.com/Amsterdam/amsterdam-jekyll-theme
 remote_theme: amsterdam/amsterdam-jekyll-theme
 headerHideLogo: true
