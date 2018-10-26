@@ -15,5 +15,5 @@ defaults:
       layout: "api"
 
 # Use the amsterdam-jekyll-theme from https://github.com/Amsterdam/amsterdam-jekyll-theme
-remote_theme: amsterdam/amsterdam-jekyll-theme
+remote_theme: overheidnl/jekyll-overheidnl-theme
 headerHideLogo: true
