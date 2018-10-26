@@ -1,0 +1,6 @@
+include: [README.md,CONTRIBUTING.md,GOVERNANCE.md]
+permalink: pretty
+
+# Use the amsterdam-jekyll-theme from https://github.com/Amsterdam/amsterdam-jekyll-theme
+remote_theme: amsterdam/amsterdam-jekyll-theme
+headerHideLogo: true
