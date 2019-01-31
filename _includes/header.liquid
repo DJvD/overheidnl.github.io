@@ -1,0 +1,20 @@
+<div class="header__start">
+  <div class="container">
+
+  <a href="{{ site.baseurl }}/">
+    {% if site.headerHideTitle != true %}
+      <h1>{{ site.title }}</h1>
+    {% endif %}
+  </a>
+
+  </div>
+</div>
+<nav class="header__nav" id="nav">
+  <h2 class="visually-hidden">Primaire navigatie</h2>
+  <div class="container">
+      <ul class="header__primary-nav list list--unstyled">
+          <li class="hidden-mobile"><a href="/"><span class="visually-hidden">Other pages on </span>overheidnl.github.io</a></li>
+          <li class="hidden-mobile"><a href="/organisations/">Organisations</a></li>
+      </ul>
+  </div>
+</nav>
