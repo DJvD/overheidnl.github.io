@@ -1,6 +1,6 @@
 ---
 title: Garbage containers
-OpenAPIUrl: https://api.data.amsterdam.nl/afval/swagger/ # OpenAPI Url
+openAPIUrl: https://api.data.amsterdam.nl/afval/swagger/ # OpenAPI Url
 endpointUrl: https://api.data.amsterdam.nl/afval/ # URL of the resource
 licenceSpdx: CC0-1.0 # SPDX Licence code
 ---

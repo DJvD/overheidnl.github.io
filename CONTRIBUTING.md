@@ -38,7 +38,7 @@ Feel free to describe a bit more about this organisation and it's take on develo
 ```markdown
 ---
 name: Garbage bin location API # The name of the API
-OpenApiUrl: https://api.data.amsterdam.nl/afval/swagger/ # OpenAPI Url (if available)
+openAPIUrl: https://api.data.amsterdam.nl/afval/swagger/ # OpenAPI Url (if available)
 url: https://api.data.amsterdam.nl/afval/ # URL of the resource
 licenceSpdx: CC0-1.0 # SPDX Licence code
 ---
