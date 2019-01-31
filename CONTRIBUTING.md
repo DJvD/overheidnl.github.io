@@ -24,7 +24,7 @@ Add your changes in commits [with a message that explains them](https://github.c
 ```markdown
 ---
 title: Gemeente Amsterdam # Official name of the organisation
-url: http://amsterdam.nl # Homepage of the organsation
+websiteUrl: http://amsterdam.nl # Homepage of the organsation
 ---
 ```
 
