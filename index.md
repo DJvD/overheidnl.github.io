@@ -1,6 +1,6 @@
 # Unofficial home of Dutch government APIs
 
-> 👩‍🔬 This project is an early stage **Proof of Concept**, which means functionality and documentation might be broken, missing or flat out wrong and APIs will change. Please help this project by [Contibuting](CONTRIBUTING.md).
+> 👩‍🔬 This project is an early stage **Proof of Concept**, which means functionality and documentation might be broken, missing or flat out wrong and APIs will change. Please help this project by [Contributing](CONTRIBUTING.md).
 
 A website to advertise the APIs provided by governments and public administrations in the Netherlands.
 
