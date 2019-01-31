@@ -1,4 +1,4 @@
-# Contributing to the API portal
+# Contributing to the Developer portal
 
 We – the maintainers of this project – value your input, enjoy feedback and welcome improvements.
 
@@ -8,15 +8,43 @@ We love issues and pull requests from everyone.
 
 You don't need to change any of our code or documentation to be a contributor. Many contributors add to our software by reporting problems, suggesting changes and asking simple and difficult questions. To do this, you can create a [GitHub Issue](https://help.github.com/articles/creating-an-issue/) for this project.
 
-## Documentation and code
+## Content, APIs, documentation and code
 
-If you want to add to the documentation or code of one of our projects you should make a Pull Request. If you never used GitHub, get up to speed with [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/).
+If you want to add to the content, documentation or code of one of our projects you should make a Pull Request. If you never used GitHub, get up to speed with [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/). If you would like to learn more about using GitHub Pages, the content management system for this site, please check out the interactive courses in the [GitHub lab](https://lab.github.com).
 
 ### 1. Make your changes
 
 Add your changes in commits [with a message that explains them](https://github.com/alphagov/styleguides/blob/master/git.md#commit-messages). Document choices or decisions you make in the commit message, this will enable everyone to be informed of your choices in the future.
 
-If you are adding code, make sure it adheres to the project's code and documentation style guide before you submit your pull request. If the project uses tests, make sure to write tests that show the behaviour of the newly added or changed code. You can read more about how to document, test and style your code in the project's [`README`](README.md).
+#### Adding an Organisation
+
+1. Add a folder with the lowercase and hyphens (`kebab-case`) name of the governmental organsiation, for example `gemeente-amsterdam` or `kadaster`.
+2. Add a MarkDown file named `index.md` to the folder that starts with the following ['Front Matter'](https://jekyllrb.com/docs/front-matter/):
+
+```markdown
+---
+title: Gemeente Amsterdam # Official name of the organisation
+url: http://amsterdam.nl # Homepage of the organsation
+---
+```
+
+Feel free to describe a bit more about this organisation and it's take on developers.
+
+#### Adding an API
+
+1. In the folder of the organsiation (`organisations/organisation-name`) add a new MarkDown file with the name of the resource or endpoint in lowercase and hyphens (`kebab-case`). For instance `trash-bin-locations.md`.
+2. Add a MarkDown file named `index.md` to the folder that starts with the following ['Front Matter'](https://jekyllrb.com/docs/front-matter/):
+
+```markdown
+---
+name: Garbage bin location API # The name of the API
+OpenApiUrl: https://api.data.amsterdam.nl/afval/swagger/ # OpenAPI Url (if available)
+url: https://api.data.amsterdam.nl/afval/ # URL of the resource
+licenceSpdx: CC0-1.0 # SPDX Licence code
+---
+```
+
+And this file can have a more in depth description of the API and per haps some examples in the body of the MarkDown document.
 
 ### 2. Pull Request
 

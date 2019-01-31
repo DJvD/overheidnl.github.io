@@ -1,14 +1,9 @@
-# APIs of Dutch Governments [unofficial]
+# Unofficial home of Dutch government APIs
 
-> 👩‍🔬 This project is an early stage **Proof of Concept**, which means functionality and documentation might be broken, missing or flat out wrong.
+> 👩‍🔬 This project is an early stage **Proof of Concept**, which means functionality and documentation might be broken, missing or flat out wrong and APIs will change. Please help this project by [Contibuting](CONTRIBUTING.md).
 
 A website to advertise the APIs provided by governments and public administrations in the Netherlands.
 
-## Organisations
-
-* [Gemeente Amsterdam](apis/amsterdam/index.md)
-* [Kadaster](apis/kadaster/index.md)
-
 ## Adding APIs of your organisation
 
-Just make a Pull Request with your API. To find out how API, please refer to the [README of the GitHub repository](README.md).
+Just make a Pull Request with your API or organisation. To find out how to, please refer to the [Contibution Guide](CONTRIBUTING.md).
