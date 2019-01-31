@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign organisations = site.pages | where: "layout", "organisation" %}
+
+{% comment %} {{ organisations }} {% endcomment %}
+
+{% comment %} Don't display this section if there is only one result {% endcomment %}
+{% if organisations[1] %}
+
+<h2 class="section-header"><a href=""><a href="{{ site.baseurl }}/organisations/">All Organisations</a></a></h2>
+
+{% for page in organisations %}
+<div>
+    <ul class="list list--linked">
+        <li class="list__item"><a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">{{ page.title }}</a></li>
+    </ul>
+</div>
+{% endfor %}
+</section>
+
+{% endif %}
+

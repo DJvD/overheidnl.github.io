@@ -3,10 +3,28 @@ layout: default
 ---
 
 <h3>API</h3>
-{{ content }}
 
-<ul>
-  <li>OpenAPI: {{page.OpenAPI}}</li>
-  <li>licence: {{page.licence}}</li>
-  <li>URL: {{page.url}}</li>
-</ul>
+<table>
+    <caption>Details about this API</caption>
+    <tbody>
+        <tr>
+            <td>API title or name</td>
+            <td>{{ page.title }}</td>
+        </tr>
+        <tr>
+            <td>OpenAPI URL</td>
+            <td><a href="{{ page.OpenAPIUrl }}">{{ page.OpenAPIUrl }}</a></td>
+        </tr>
+        <tr>
+            <td>Endpoint URL</td>
+            <td><a href="{{ page.endpointUrl }}">{{ page.endpointUrl }}</a></td>
+        </tr>
+        <tr>
+            <td>Licence SPDX code</td>
+            <td>{{ page.licenceSpdx }}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+{{ content }}

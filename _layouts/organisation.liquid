@@ -2,5 +2,10 @@
 layout: default
 ---
 
-<h3>Organisation</h3>
+<h3 class="section-header"><a href=""><a href="{{ site.baseurl }}/organisations/">Organisation</a></a></h3>
+
+<h2>{{ page.title }}</h2>
+
+{% if page.websiteUrl %}Website: <a href="{{page.websiteUrl}}">{{ page.websiteUrl }}</a>{% endif %}
+
 {{ content }}

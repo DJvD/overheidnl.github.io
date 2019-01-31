@@ -3,16 +3,23 @@ title: Dutch Government Developer Portal
 include: [README.md,CONTRIBUTING.md,GOVERNANCE.md]
 permalink: pretty
 
+toc: true
+
 # Page defaults in order to put the right design with the right class of page
 defaults:
   -
     scope:
-      path: "apis/*/index.md"
+      path: "organisations/index.md"
+    values:
+      layout: "organisations"
+  -
+    scope:
+      path: "organisations/*/index.md"
     values:
       layout: "organisation"
   -
     scope:
-      path: "apis/*/*"
+      path: "organisations/*/*"
     values:
       layout: "api"
 

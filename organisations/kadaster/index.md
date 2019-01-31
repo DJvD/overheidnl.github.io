@@ -2,7 +2,7 @@
 
 ## APIs
 
-* [BAG (Basisregistratie Adressen en Gebouwen)](bag.md)
+* [BAG (Base registry for adresses and buildings)](bag.md)
 
 ## Official documentation
 
